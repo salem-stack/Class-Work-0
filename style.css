@@ -2,3 +2,81 @@
     margin: 0;
     padding: 0;
 }
+
+/*general styling */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.body{
+    font-family: arial, sans-serif;
+    line-height: 1.4;
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.text-primary{
+    color: #3693ff;
+}
+
+/* Nav Bar */
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    background: #333;
+    color: #fff;
+    padding: 1.5rem 8rem;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.nav-item ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+/* navbar h2 a{
+    color:
+    textdecoration:
+}
+*/
+
+.nav-item li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 1rem;
+    font-size: 1.3rem;
+    margin: 0 0.5rem;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.nav-bar li a:hover{
+    background-color: #fff;
+}
+
+/* showcase */
+.showcase{
+    background-color: url(../Group-Classwork/img5.jpg) no-repeat center center/cover;
+    height: 91.7h;
+}
+
+.showcase-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 81px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+}
