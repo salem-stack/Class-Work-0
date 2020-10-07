@@ -1,18 +1,17 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-
 /*general styling */
 *{
     margin: 0;
     padding: 0;
 }
 
+
 .body{
+    padding-left: 50px;
+    padding-right: 50px;
     font-family: arial, sans-serif;
-    line-height: 1.4;
     overflow-x: hidden;
+    background-image: url("img4.jpg");
+    height: 91.7h;
 }
 
 .container {
@@ -21,7 +20,10 @@
 }
 
 .text-primary{
-    color: #3693ff;
+    color: blue;
+}
+.h2{
+    text-transform: none;
 }
 
 /* Nav Bar */
@@ -36,7 +38,7 @@
     z-index: 1;
 }
 
-.nav-item ul{
+.nav-item{
     display: flex;
     align-items: center;
     list-style: none;
@@ -63,20 +65,32 @@
 }
 
 /* showcase */
-.showcase{
-    background-color: url(../Group-Classwork/img5.jpg) no-repeat center center/cover;
-    height: 91.7h;
-}
 
 .showcase-content{
-    display: flex;
     align-items: center;
     justify-content: center;
     position: absolute;
-    top: 81px;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    background: rgba(0, 0, 0, 0.6);
-    color: #fff;
+    margin-top: 150px;
+    align-self: center;
+   
+}
+
+.container{
+    display: flex;
+    margin-left: 15px;
+}
+
+.box{
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 50px;
+    margin: 50px;
+}
+
+
+.subHead{
+    text-align: center;
+}
+
+.subPara{
+    text-align: left;
 }
