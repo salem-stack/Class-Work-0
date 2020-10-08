@@ -62,13 +62,18 @@
 
 
 /* showcase */
-.row{
-    display: flex;
-    padding: 5% 8%;
-    height: 45%;
-    margin: 0 2%;
-    
+.showcase-content{
+    margin-top: 75px;
+    padding: 14px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
 }
+
+/* .row{
+    display: flex;
+    padding: 10px;
+} */
 
 .box{
     background-color: rgba(255, 255, 255, 0.8);
@@ -110,3 +115,24 @@
     padding: 15px 25px;
     font-weight: bold;
 }
+
+/* .socials {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+.socials li a{
+    margin: 0 10px;
+    border-radius: 5px;
+    padding: 5px;
+    border-radius: 40px;
+
+}
+.copyright {
+    background-color: #2F80ED;
+    text-align: center;
+    color: white;
+    padding: 5px 0;
+    
+} */
