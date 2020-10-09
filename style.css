@@ -1,0 +1,137 @@
+
+/*general styling */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.body{
+    background: url("/assets/wallpapers-img/img4.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family: arial, sans-serif;
+    overflow: hidden;
+}
+
+.wrapper {
+    height: 755px;
+    padding-top: 2px;
+    background: rgba(8, 8, 8, 0.5);
+}
+
+/* Header */
+.header {
+    justify-content: space-between;
+    background: rgba(255, 255, 255, 0.8);
+    margin: 0 5%;
+    top: 20px; 
+    z-index: 1;
+    position: sticky;
+    
+}
+
+/* Nav Bar */
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 25px;
+    font-weight: bold;
+}
+
+.h2 {
+    text-decoration: none;
+    margin-right: 29%;
+    padding: 5px 0;
+    font-size: 22px;
+    color:rgb(0, 38, 255);
+}
+
+.nav-items {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-items li a {
+    text-decoration: none;
+    padding: 1rem;
+    font-size: 18px;
+    margin: 0 0.5rem;
+    border-radius: 5px;
+    color: black;
+}
+
+.nav-items a:hover , a:active{
+    color:blue;
+}
+
+.active {
+    text-decoration-color: blue !important;
+} 
+
+
+
+/* Main */
+.box {
+    display: flex;
+    max-width: 1400px;
+    margin: 10% auto 0;
+    justify-content: space-between;
+}
+
+.boxes {
+    background-color: rgba(255, 255, 255, 0.65);
+    border-radius: 2px;
+    height: 300px;
+    width: 30%;
+    margin: 10px 25px;
+}
+.img{
+    margin-left: 40%;
+    padding-top: 6%;
+}
+
+.title-text {
+    text-align: left;
+    font-size: 25px;
+    padding: 15px 25px;
+    font-weight: bold;
+}
+
+.subPara {
+    padding: 0 25px;
+    text-align: left;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+
+/* ---- Begining of Footer ---- */
+.footer {
+    display: flex;
+    margin: 5% 37%;
+    height: 50px;
+    width: 100%;
+    padding-top: 3%;
+    align-content: center;
+}
+
+.socials {
+    display: block;
+    align-items: center;
+}
+
+.socials li {
+    display: inline-block;
+    text-align: center; 
+    justify-content: space-between;
+    width: 30px; 
+}
+
+.social-icon{
+    border-radius: 5px;
+    padding: 2px 8px;
+    margin: 0 10px;
+    align-self: center;
+}
+
