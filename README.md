@@ -14,8 +14,9 @@ This project is all about creating a simple webpage with your header that includ
 
 ## Live Demo
 
-[Live Demo Link](https://gnwin.github.io/Godwin-Huemac-Apple-Website/)
-<!-- [Live Demo Link](https://raw.githack.com/Gnwin/Godwin-Huemac-Apple-Website/apple/index.html) -->
+[Live Demo Link](https://github.com/salem-stack/Class-Work-0)
+<!-- [Live Demo Link](https://raw.githack.com/salem-stack/Class-Work-0/html-branch/index.html) -->
+
 
 ## Authors
 
